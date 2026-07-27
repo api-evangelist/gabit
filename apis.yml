@@ -1,9 +1,29 @@
 aid: gabit
 name: Gabit
-description: 'Gabit is a company surfaced as a portfolio company of norwest-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Gabit is a one-stop health and wellness platform on a mission to add
+  more healthy years to people''s lives. Headquartered in Gurugram, India and founded
+  in 2022 by Gaurav Gupta (ex-Zomato cofounder) and Arpana Shahi, Gabit treats health
+  as an interconnected system across four pillars — fitness, nutrition, sleep, and
+  mindfulness. Its consumer ecosystem spans the titanium Gabit Smart Ring, a smart
+  body-composition scale, at-home Blood Work diagnostics, a continuous glucose monitor
+  (CGM), the Sweden-born Näck nutrition supplement line, all-good-no-harm skincare,
+  and coached Fitness & Nutrition Plans — all unified in the Gabit app, which tracks
+  150+ biomarkers and includes the free PEP AI health coach. India is the primary
+  market, with Ring-only storefronts in the UAE and UK and an informational US/global
+  page.'
 url: https://raw.githubusercontent.com/api-evangelist/gabit/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.gabit.com/ring/graphite-black-dummy-sku-new.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +32,20 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Unknown
+- Health
+- Wellness
+- Wearables
+- Smart Ring
+- Fitness
+- Nutrition
+- Sleep
+- Longevity
+- Consumer Health
+- Health Tracking
+- Digital Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +55,20 @@ maintainers:
 common:
 - type: Website
   url: https://gabit.com
+- type: Blog
+  url: https://www.gabit.com/blog
+- type: Support
+  url: mailto:care@gabit.com
+- type: PrivacyPolicy
+  url: https://www.gabit.com/privacy-policy
+- type: TermsOfService
+  url: https://www.gabit.com/terms-and-conditions
+- type: LLMsTxt
+  url: llms/gabit-llms.txt
+- type: DomainSecurity
+  url: security/gabit-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
